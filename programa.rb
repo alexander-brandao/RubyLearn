@@ -46,5 +46,5 @@ end #fim da classe
 carro = Carro.new
 puts carro.velocidade_maxima
 carro.adiciona_marca("Ford")
-puts carro.marca
+puts carro.marca 
 
