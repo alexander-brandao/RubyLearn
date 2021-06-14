@@ -33,3 +33,21 @@ class Carro < Automovel
     end
 end
 
+# metodos terminados em "?" sao booleanos
+# while freio_acionado?
+#    puts "manter parado"
+# end
+
+# primeira forma como fazer um loop como metodo ".each"
+# criando um vetor
+# "fruta" e a variavel que recebe "laranja","maçã","uva"
+["laranja","maçã","uva"].each do |fruta|
+    puts fruta
+end
+
+#segunda forma
+["laranja","maçã","uva"].each {|fruta| puts fruta}
+
+#como imprimir do 0 até o 100 com a funcao ".upto"
+0.upto(100) {|i| puts i}
+
