@@ -52,10 +52,10 @@ end
 0.upto(10) {|i| puts i}
 
 #convertendo uma string em um array
-lista = %w(conversao de string para array)
+# lista = %w(conversao de string para array)
 
 #criando uma tabela hash com chave e valor
-hash = {nome: 'Alexander', idade: '25'}
+# hash = {nome: 'Alexander', idade: '25'}
 
 # '*' transforma os parametros da funcao em arrays exemplo:
  def imprimir_nomes(*nomes)
