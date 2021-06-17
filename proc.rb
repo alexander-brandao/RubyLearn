@@ -25,3 +25,6 @@ listar_usuarios 10, debug do |usuarios|
     puts "Total de usuarios: #{response.size}"
 end
 
+# o retorno de uma lambda é interna dentro de uma funcao
+lamb = -> () { puts "Eu sou uma lambda "}
+lamb.call
