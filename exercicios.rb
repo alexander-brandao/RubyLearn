@@ -23,3 +23,11 @@ def regex()
 end
 
 #regex()
+
+def operator()
+    restaurante ||= "giraffas"
+    puts restaurante
+end
+
+operator()
+
