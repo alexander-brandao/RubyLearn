@@ -7,3 +7,13 @@ def notas(nota)
 end
 # notas(8)
 
+def sequence()
+    for i in (1..7)
+        x = i 
+        puts x 
+    end
+end
+
+# sequence()
+
+
