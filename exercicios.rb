@@ -16,4 +16,10 @@ end
 
 # sequence()
 
+def regex()
+    puts /paulo/ =~ "sao paulo"
+    #retorna a posicao do primeiro caractere encontrado
+    # retorna 4 (a quinta posicao começando do 0)
+end
 
+#regex()
