@@ -22,6 +22,20 @@ class Pessoa
     end
 end
 
-p = Pessoa.new
-p.muda_nome("Alexander")
-p.diz_nome
+#p = Pessoa.new
+#p.muda_nome("Alexander")
+#p.diz_nome
+
+class Carro
+    def nome
+       @nome 
+    end 
+
+    def nome=(novo_nome)
+        @nome = novo_nome
+    end
+end
+
+c = Carro.new
+c.nome=("Alexander")
+puts c.nome
