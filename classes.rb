@@ -9,6 +9,10 @@ end
 
 class Pessoa
 
+    def initialize
+        puts "criando uma nova pessoa"
+    end
+
     def muda_nome(novo_nome)
         @nome = novo_nome
     end
