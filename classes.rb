@@ -36,6 +36,7 @@ class Carro
     end
 end
 
-c = Carro.new
-c.nome=("Alexander")
-puts c.nome
+#c = Carro.new
+#c.nome=("Alexander")
+#puts c.nome
+
