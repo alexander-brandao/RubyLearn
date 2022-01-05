@@ -20,4 +20,26 @@ def procura_sede_copa_mundo(ano)
 end 
 
 
-puts procura_sede_copa_mundo(2009)
+#puts procura_sede_copa_mundo(2009)
+
+def copa(ano) 
+
+    if ano == 2006
+        puts "alemanha"
+    
+    elsif ano == 2010
+        puts "africa"
+
+    elsif ano == 2014
+        puts "brasil"
+    
+    elsif ano == 2018
+        puts "russia"
+    else
+        puts "nao lembro"
+    end
+end
+
+copa(1999)
+
+
