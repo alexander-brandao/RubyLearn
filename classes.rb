@@ -1,11 +1,13 @@
-class Restaurante 
-    def qualifica(nota, msg = "thank you")
+#class Restaurante 
+#   def qualifica(nota, msg = "thank you")
+#        
+#        puts "your grade was #{nota}. #{msg}"
         
-        puts "your grade was #{nota}. #{msg}"
-        
-    end
-end
+#    end
+#end
 
-giraffas = Restaurante.new
+#giraffas = Restaurante.new
 
-giraffas.qualifica(10)
+#giraffas.qualifica(10)
+
+
